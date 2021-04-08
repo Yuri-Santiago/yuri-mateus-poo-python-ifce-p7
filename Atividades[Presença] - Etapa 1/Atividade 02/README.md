@@ -1,5 +1,4 @@
-Atividade 2 - Valendo Presença
-
+Atividade 2 - Presença
 Criar uma lista em Python para implementar as seguintes Estruturas de Dados:
 1) Pilha (inserir e retirar pelo topo da Pilha). Considerar o topo como sendo o índice 0 da Lista.
 2) Fila (Inserir no final da Fila. Considerar o final da fila o elemento de maior índice positivo. 
