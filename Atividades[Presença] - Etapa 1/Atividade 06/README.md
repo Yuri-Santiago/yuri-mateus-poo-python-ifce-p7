@@ -1,4 +1,6 @@
-# Sistema de Compras Online
+# Atividade 6 - Presença
+
+## Sistema de Compras Online:
 ## Esse sistema simula uma loja online qualquer, onde temos quatro Classes principais: Cliente, Compra, Item e Produto. Começarei explicando da última para a primeira.
 ### Produto:
 #### Essa Classe seria onde intanciaríamos cada objeto Produto na memória, como um Celular, Notebook, Caderno, Caneta e etc. Os Atributos dessa Classe são: Nome e Preço, no metódo construtor passamos eles como argumentos. Os Métodos dessa Classe são: getNome, onde acessamos o nome do produto; getPreco, onde acessamos o preço do produto; setNome e setPreco, onde modificamos ambos nome e preço.
