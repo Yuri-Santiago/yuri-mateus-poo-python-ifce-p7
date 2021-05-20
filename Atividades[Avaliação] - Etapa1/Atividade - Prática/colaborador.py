@@ -37,7 +37,7 @@ class Colaborador:
     def get_cpf(self):
         return self.__cpf
 
-    def salario_atual(self):
+    def get_salario_atual(self):
         return self.__salario_atual
 
     def set_codigo(self, codigo):
@@ -70,8 +70,7 @@ class Colaborador:
         total_descontos = 0
         for movimento in self.__movimentos:
             if movimento.get_tipo_movimento() == TipoMovimento.PROVENTO:
-                if movimento.get_descricao() != 'Salário':
-                    total_proventos += movimento.get_valor()
+                total_proventos += movimento.get_valor()
             else:
                 total_descontos += movimento.get_valor()
         valor_liquido = (self.__salario_atual + total_proventos) - total_descontos

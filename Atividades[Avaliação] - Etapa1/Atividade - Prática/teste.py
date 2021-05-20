@@ -16,17 +16,17 @@ if __name__ == '__main__':
                       '350245632-76', 3000)
 
     # Questão 3
-    MF1 = MovimentoFolha(CL1, 'Salário', 4500, TipoMovimento.PROVENTO)
-    MF2 = MovimentoFolha(CL1, 'Plano Saúde', 1000, TipoMovimento.PROVENTO)
+    MF1 = MovimentoFolha(CL1, 'Gratificação', 4500, TipoMovimento.PROVENTO)
+    MF2 = MovimentoFolha(CL1, '', 1000, TipoMovimento.PROVENTO)
     MF3 = MovimentoFolha(CL1, 'Pensão', 600, TipoMovimento.DESCONTO)
 
-    MF4 = MovimentoFolha(CL2, 'Salário', 2500, TipoMovimento.PROVENTO)
-    MF5 = MovimentoFolha(CL2, 'Gratificação', 1000, TipoMovimento.PROVENTO)
+    MF4 = MovimentoFolha(CL2, 'Gratificação', 2500, TipoMovimento.PROVENTO)
+    MF5 = MovimentoFolha(CL2, 'Plano Saúde', 1000, TipoMovimento.PROVENTO)
     MF6 = MovimentoFolha(CL2, 'Faltas', 600, TipoMovimento.DESCONTO)
 
-    MF7 = MovimentoFolha(CL3, 'Salário', 3000, TipoMovimento.PROVENTO)
+    MF7 = MovimentoFolha(CL3, 'Gratificação', 4500, TipoMovimento.PROVENTO)
     MF8 = MovimentoFolha(CL3, 'Plano Saúde', 1000, TipoMovimento.PROVENTO)
-    MF9 = MovimentoFolha(CL3, 'Pensão', 800, TipoMovimento.DESCONTO)
+    MF9 = MovimentoFolha(CL3, 'Pensão', 600, TipoMovimento.DESCONTO)
 
     movimentos = [MF1, MF2, MF3, MF4, MF5, MF6, MF7, MF8, MF9]
 
@@ -44,6 +44,4 @@ if __name__ == '__main__':
             CL3.inserir_movimentos(movimentos[m])
 
     print(FP.calcular_folha())
-    print(CL1.calcular_salario())
-    print(CL2.calcular_salario())
-    print(CL3.calcular_salario())
+
