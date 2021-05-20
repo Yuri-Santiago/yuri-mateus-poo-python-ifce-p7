@@ -44,4 +44,3 @@ if __name__ == '__main__':
             CL3.inserir_movimentos(movimentos[m])
 
     print(FP.calcular_folha())
-

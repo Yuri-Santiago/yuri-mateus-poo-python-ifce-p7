@@ -57,6 +57,7 @@ class FolhaPagamento:
             resultado += f'\nFolha Individual do Colaborador {i + 1}:\n{colaborador.calcular_salario()}'
 
         return resultado
+
     # Questão 4
     def inserir_movimentos(self, movimento):
         if isinstance(movimento, MovimentoFolha):
