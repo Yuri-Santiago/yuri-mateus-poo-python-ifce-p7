@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     # Questão 3
     MF1 = MovimentoFolha(CL1, 'Gratificação', 4500, TipoMovimento.PROVENTO)
-    MF2 = MovimentoFolha(CL1, '', 1000, TipoMovimento.PROVENTO)
+    MF2 = MovimentoFolha(CL1, 'Plano Saúde', 1000, TipoMovimento.PROVENTO)
     MF3 = MovimentoFolha(CL1, 'Pensão', 600, TipoMovimento.DESCONTO)
 
     MF4 = MovimentoFolha(CL2, 'Gratificação', 2500, TipoMovimento.PROVENTO)
