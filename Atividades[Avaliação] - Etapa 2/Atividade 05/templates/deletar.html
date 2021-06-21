@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super()}} - Deletar Cliente{% endblock %}
+
+{% block content %}
+<div>
+    {% if cliente %}
+        <h4>Cliente {{cliente.get_nome()}} do código {{cliente.get_codigo()}} foi deletado(a)</h4>
+    {% elif erro %}
+        <h4>ID inválido. Tente Novamente</h4>
+    {% else %}
+        <h4>Digite o seu ID na url</h4>
+    {% endif %}
+</div>
+{% endblock %}

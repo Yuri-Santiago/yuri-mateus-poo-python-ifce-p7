@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super()}} - Login{% endblock %}
+
+{% block content %}
+<form action="" method="POST">
+    <h1 class="h3 mb-3 fw-normal">Se Cadastre</h1>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Nome Sobrenome" name="nome">
+      <label for="floatingInput">Nome</label>
+    </div>
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingPassword" placeholder="CPF" name="cpf">
+      <label for="floatingPassword">CPF</label>
+    </div>
+
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+</form>
+{% endblock %}
