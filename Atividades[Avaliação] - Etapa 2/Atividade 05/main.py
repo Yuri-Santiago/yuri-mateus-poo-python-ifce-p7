@@ -8,8 +8,8 @@ clientes = [Cliente(1, "Yuri Mateus", 100, '100.200.300-01', 'fisica'),
             Cliente(3, "Kelvin de Lima", 300, '100.200.300-03', 'fisica'),
             Cliente(4, "Israel Leite", 400, '100.200.300-04', 'fisica'),
             Cliente(5, "Paulo Victor", 500, '100.200.300-05', 'fisica')]
-id_atual = 5
-codigo_atual = 500
+id_atual = 6
+codigo_atual = 600
 
 
 def atualizar_clientes(cliente):
