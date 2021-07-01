@@ -2,7 +2,7 @@ from produto import Produto
 
 
 class Item:
-    def __init__(self, produto, quantidade):
+    def __init__(self, self, quantidade):
         self._produto = self.set_produto(produto)
         self._quantidade = self.set_quantidade(quantidade)
 
@@ -30,7 +30,7 @@ class Item:
     def get_valor_item(self):
         return self.get_produto_preco() * self.get_quantidade()
 
-    def set_produto(self, produto):
+    def set_produto(self, self):
         if produto is not None and isinstance(produto, Produto):
             self._produto = produto
             retorno = produto
