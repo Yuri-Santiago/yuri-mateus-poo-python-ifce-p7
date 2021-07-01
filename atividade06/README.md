@@ -35,3 +35,6 @@
 ####  put    api/itemnf/{id}     : Atualiza um item de nota fiscal
 ####  delete api/itemnf/{id}     : Exclui um item de nota fiscal
 
+![image](https://user-images.githubusercontent.com/71711422/124153605-fb27a500-da6a-11eb-8dd1-0097e799cf20.png)
+
+![image](https://user-images.githubusercontent.com/71711422/124153720-1c889100-da6b-11eb-95f9-53aa202825a7.png)
